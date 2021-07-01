@@ -1,0 +1,32 @@
+ฐานข้อมูลชื่อ mydb
+----------------------------------------------------------
+ตาราง products
+คำสั่ง sql
+
+CREATE TABLE products (
+ id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+ name varchar(100) NOT NULL,
+ image  varchar(100) NOT NULL,
+ price int(6) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+ตาราง orders
+คำสั่ง sql
+
+CREATE TABLE orders (
+id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+address varchar(100) NOT NULL,
+orders varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+----------------------------------------------------------
+ทดสอบชำระเงิน sanbox
+paypal sanbox
+sb-477zff5773005@personal.example.com
+12345678
+
+ดูรายละเอียดชำระเงิน sanbox
+https://www.sandbox.paypal.com
+
+
+
